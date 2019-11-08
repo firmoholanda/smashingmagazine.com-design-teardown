@@ -4,8 +4,7 @@ body {
 }
 
 div {
-
-  font-family: ;
+  color: #fff;
 }
 
 /* navbar -------------------------------------------------------------------------------*/
@@ -64,7 +63,6 @@ div {
 }
 
 .feature-articles div {
-  flex: 0 50%;
   flex: 1 0 50%;
   height: 386px;
   display: flex;
@@ -73,21 +71,167 @@ div {
 }
 
 .fa01 {
-
   background:  #555;
 }
 
 .fa02 {
-  
   background:  #666;
 }
 
 .fa03 {
-  
   background:  #888;
 }
 
 .fa04 {
-  
   background:  #999;
+}
+
+/* membership-panel ---------------------------------------------------------------------*/
+.membership-panel {
+  height: 477px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background:  #555;
+}
+
+/* latest-posts -----------------------------------------------------------------------*/
+.latest-posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.latest-posts div {
+  height: 599px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lp01 {
+  flex: 1 0 25%;
+  background:  #444;
+}
+
+.lp02 {
+  flex: 1 0 25%;
+  background:  #666;
+}
+
+.lp03 {
+  flex: 1 0 25%;
+  background: #888;
+}
+
+.lp04 {
+  flex: 1 0 25%;
+  background: #bebebe;
+}
+
+.lp05 {
+  flex: 1 0 50%;
+  background:  red;
+}
+
+.lp06 {
+  flex: 1 0 33.33%;
+  background: #888;
+}
+
+.lp07 {
+  flex: 1 0 33.33%;
+  background: #888;
+}
+
+.lp08 {
+  flex: 1 0 33.33%;
+  background: #888;
+}
+
+.lp09 {
+  flex: 1 0 33.33%;
+  background: #888;
+}
+
+/* see-all-articles -------------------------------------------------------------------*/
+.see-all-articles {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background:  #555;
+}
+
+/* blue-panel -------------------------------------------------------------------------*/
+.blue-panel {
+  height: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: blue;
+}
+
+/* community-links -------------------------------------------------------------------------*/
+.community-links {
+  height: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: #555;
+}
+
+/* more-links -------------------------------------------------------------------------*/
+.more-links {
+  height: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: #555;
+}
+
+/* feature-panel -------------------------------------------------------------------------*/
+.feature-panel {
+  height: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: #555;
+}
+
+/* curated-posts -------------------------------------------------------------------------*/
+.curated-posts {
+  height: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: #555;
+}
+
+/* newsletter-panel -------------------------------------------------------------------------*/
+.newsletter-panel {
+  height: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: #555;
+}
+
+/* see-all-articles -------------------------------------------------------------------------*/
+.see-all-articles {
+  height: 980px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: #555;
+}
+
+/* footer -----------------------------------------------------------------------------*/
+.footer {
+  height: 654px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  background: #555;
 }
