@@ -150,18 +150,18 @@ div {
 .lp08 {
   flex: 1 0 25%;
   position: relative;
-  background: #888;
+  background: #555;
 }
 
 .lp09 {
   flex: 1 0 25%;
   position: relative;
-  background: #888;
+  background: #999;
 }
 
 .lp10 {
   flex: 1 0 50%;
-  background: #888;
+  background: #222;
 }
 
 #arrow {
@@ -180,7 +180,7 @@ div {
 }
 
 #arrow.a03 {
-  background: #dcdcdd;
+  background: #999;
 }
 
 #arrow.a04 {
@@ -188,31 +188,119 @@ div {
 }
 
 /* see-all-articles -------------------------------------------------------------------*/
-.see-all-articles {
-  height: 100px;
+.see-all-articles01 {
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center; 
-  background:  #555;
+  background:  #c4c4c4;
 }
 
 /* blue-panel -------------------------------------------------------------------------*/
 .blue-panel {
-  height: 980px;
+  height: 1000px;
   display: flex;
   justify-content: center;
   align-items: center; 
-  background: rgb(93, 93, 255);
+  background: #444;
 }
 
 /* community-links -------------------------------------------------------------------------*/
 .community-links {
-  height: 980px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.community-links div {
+  height: 599px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
+}
+
+.cl01 {
+  flex: 1 0 20%;
+  background:  #444;
+}
+
+.cl02 {
+  flex: 1 0 80%;
+  background:  #666;
+}
+
+.cl03 {
+  flex: 1 0 50%;
+  position: relative;
+  background:  #444;
+}
+
+.cl04 {
+  flex: 1 0 50%;
+  position: relative;
+  background:  #555;
+}
+
+.cl05 {
+  flex: 1 0 50%;
+  position: relative;
+  background:  #666;
+}
+
+.cl06 {
+  flex: 1 0 50%;
+  position: relative;
+  background:  #777;
+}
+
+.cl07 {
+  flex: 1 0 50%;
+  position: relative;
+  background:  #888;
+}
+
+.cl08 {
+  flex: 1 0 50%;
+  position: relative;
+  background:  #999;
+}
+
+#bio-image {
+  width: 5%;
+  height: 73px !important;
+  bottom: 0px;
+  position: absolute;
+}
+
+#bio-image.bi01 {
+  background: #222;
+}
+
+#bio-image.bi02 {
+  background: #222;
+}
+
+#bio-image.bi03 {
+  background: #333;
+}
+
+#bio-image.bi04 {
+  background: #444;
+}
+
+#bio-image.bi05 {
   background: #555;
 }
+
+#bio-image.bi06 {
+  background: #666;
+}
+
+#bio-image.bi07 {
+  background: #777;
+}
+
 
 /* more-links -------------------------------------------------------------------------*/
 .more-links {
@@ -251,7 +339,7 @@ div {
 }
 
 /* see-all-articles -------------------------------------------------------------------------*/
-.see-all-articles {
+.see-all-articles02 {
   height: 980px;
   display: flex;
   justify-content: center;
