@@ -149,25 +149,25 @@ div {
 
 .lp01 {
   flex: 1 0 auto;
-  min-width: 25%;
+  max-width: 25%;
   background:  #444;
 }
 
 .lp02 {
   flex: 1 0 auto;
-  min-width: 25%;
+  max-width: 25%;
   background:  #666;
 }
 
 .lp03 {
   flex: 1 0 auto;
-  min-width: 25%;
+  max-width: 25%;
   background: #888;
 }
 
 .lp04 {
   flex: 1 0 auto;
-  min-width: 25%;
+  max-width: 25%;
   background: #bebebe;
 }
 
