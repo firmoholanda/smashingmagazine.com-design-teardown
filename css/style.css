@@ -42,12 +42,12 @@ div {
   align-items: center;
 }
 
-.feature-articles div {
+.feature-articles > div {
   flex: 1 0 50%;
   height: 386px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .fa01 {
@@ -64,6 +64,31 @@ div {
 
 .fa04 {
   background:  #999;
+}
+
+.text-popup01 {
+  height: 20px;
+  position: absolute;
+  top: 60px;
+  background:  #111;
+}
+
+.text-popup02 {
+  height: 20px;
+  position: absolute;
+  top: 90px;
+  background:  #111;
+}
+
+.seriously-red {
+  height: 10px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  right: 0;
+  background:  #333;
 }
 
 /* membership-panel -------------------------------------------------------------------*/
@@ -160,7 +185,6 @@ div {
 }
 
 .a01 {
-  
   background: #999;
 }
 
@@ -252,7 +276,6 @@ div {
   position: relative;
   background:  #888;
 }
-
 
 .bio-image {
   width: 81px;
