@@ -7,7 +7,7 @@ div {
   color: #fff;
 }
 
-/* navbar -------------------------------------------------------------------------------*/
+/* navbar -----------------------------------------------------------------------------*/
 .navbar {
   display: flex;
 }
@@ -19,42 +19,22 @@ div {
   align-items: center;  
 }
 
-.nb-item01 {
+.nb-logo {
   flex: 1 0 13%;
   background:  #111;
 }
 
-.nb-item02 {
+.nb-item {
   flex: 1 0 16%;
   background:  #333;
 }
 
-.nb-item03 {
-  flex: 1 0 16%;
-  background:  #333;
-}
-
-.nb-item04 {
-  flex: 1 0 16%;
-  background:  #333;
-}
-
-.nb-item05 {
-  flex: 1 0 16%;
-  background:  #333;
-}
-
-.nb-item06 {
-  flex: 1 0 16%;
-  background:  #333;
-}
-
-.nb-item07 {
+.nb-button {
   flex: 1 0 7%;
   background:  #222;
 }
 
-/* feature-articles ---------------------------------------------------------------------*/
+/* feature-articles -------------------------------------------------------------------*/
 .feature-articles {
   display: flex;
   flex-wrap: wrap;
@@ -86,7 +66,7 @@ div {
   background:  #999;
 }
 
-/* membership-panel ---------------------------------------------------------------------*/
+/* membership-panel -------------------------------------------------------------------*/
 .membership-panel {
   height: 477px;
   display: flex;
@@ -103,7 +83,7 @@ div {
   align-items: center;
 }
 
-.latest-posts div {
+.latest-posts > div {
   height: 599px;
   display: flex;
   justify-content: center;
@@ -164,26 +144,30 @@ div {
   background: #222;
 }
 
-#arrow {
+.arrow {
   width: 100%;
-  height: 73px !important;
+  height: 73px;
   bottom: 0px;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#arrow.a01 {
+.a01 {
+  
   background: #999;
 }
 
-#arrow.a02 {
+.a02 {
   background: #dcdcdd;
 }
 
-#arrow.a03 {
+.a03 {
   background: #999;
 }
 
-#arrow.a04 {
+.a04 {
   background: #dcdcdd;
 }
 
@@ -198,14 +182,14 @@ div {
 
 /* blue-panel -------------------------------------------------------------------------*/
 .blue-panel {
-  height: 1000px;
+  height: 977px;
   display: flex;
   justify-content: center;
   align-items: center; 
   background: #444;
 }
 
-/* community-links -------------------------------------------------------------------------*/
+/* community-links --------------------------------------------------------------------*/
 .community-links {
   display: flex;
   flex-wrap: wrap;
@@ -213,8 +197,8 @@ div {
   align-items: center;
 }
 
-.community-links div {
-  height: 599px;
+.community-links > div {
+  height: 440px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -266,41 +250,43 @@ div {
   background:  #999;
 }
 
-#bio-image {
+.bio-image {
   width: 18%;
-  height: 73px !important;
+  height: 73px;
   bottom: 0px;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#bio-image.bi01 {
+.bi01 {
   background: #222;
 }
 
-#bio-image.bi02 {
+.bi02 {
   background: #222;
 }
 
-#bio-image.bi03 {
+.bi03 {
   background: #333;
 }
 
-#bio-image.bi04 {
+.bi04 {
   background: #444;
 }
 
-#bio-image.bi05 {
+.bi05 {
   background: #555;
 }
 
-#bio-image.bi06 {
+.bi06 {
   background: #666;
 }
 
-#bio-image.bi07 {
+.bi07 {
   background: #777;
 }
-
 
 /* more-links -------------------------------------------------------------------------*/
 .more-links {
@@ -311,7 +297,7 @@ div {
   background: #555;
 }
 
-/* feature-panel -------------------------------------------------------------------------*/
+/* feature-panel ----------------------------------------------------------------------*/
 .feature-panel {
   height: 980px;
   display: flex;
@@ -320,7 +306,7 @@ div {
   background: #555;
 }
 
-/* curated-posts -------------------------------------------------------------------------*/
+/* curated-posts ----------------------------------------------------------------------*/
 .curated-posts {
   height: 980px;
   display: flex;
@@ -329,7 +315,7 @@ div {
   background: #555;
 }
 
-/* newsletter-panel -------------------------------------------------------------------------*/
+/* newsletter-panel -------------------------------------------------------------------*/
 .newsletter-panel {
   height: 980px;
   display: flex;
@@ -338,7 +324,7 @@ div {
   background: #555;
 }
 
-/* see-all-articles -------------------------------------------------------------------------*/
+/* see-all-articles -------------------------------------------------------------------*/
 .see-all-articles02 {
   height: 980px;
   display: flex;
