@@ -408,7 +408,7 @@ div {
 .curated-posts {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 40px 40px;
 }
 
@@ -416,7 +416,9 @@ div {
   height: 788px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-direction: column;
 }
 
 
