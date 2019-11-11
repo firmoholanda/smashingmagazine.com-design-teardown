@@ -2,6 +2,7 @@ body {
   /*width: 1680px;*/
   height: 100vw;
   font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 div {
@@ -59,9 +60,6 @@ div {
   flex: 1 0 10%;
   background:  #222;
 }
-
-
-
 
 /* feature-articles -------------------------------------------------------------------*/
 .feature-articles {
@@ -238,6 +236,17 @@ div {
 
 .a04 {
   background: #dcdcdd;
+}
+
+.popup-animation {
+  transition: transform 0.3s;
+}
+
+.popup-animation:hover {
+  transform: scale(1.07);
+  padding: 3px 0;
+  box-shadow: 0px 0px 4px 7px rgb(48, 48, 48, 0.3);
+  z-index: 5;
 }
 
 /* see-all-articles -------------------------------------------------------------------*/
