@@ -67,7 +67,7 @@ div {
 }
 
 .text-popup01 {
-  height: 30px !important;
+  height: 30px ;
   position: absolute;
   top: 200px;
   z-index: 1;
@@ -75,7 +75,7 @@ div {
 }
 
 .text-popup02 {
-  height: 30px !important;
+  height: 30px;
   position: absolute;
   top: 230px;
   z-index: 1;
@@ -84,7 +84,7 @@ div {
 
 .seriously-red {
   position: absolute;
-  height: 30px !important;
+  height: 30px;
   top: 200px;
   right: 70px;
   z-index: 1;
