@@ -253,7 +253,8 @@ div {
 .bio-image {
   width: 18%;
   height: 73px;
-  bottom: 0px;
+  top: 0;
+  left: 0;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -285,6 +286,10 @@ div {
 }
 
 .bi07 {
+  background: #777;
+}
+
+.bi08 {
   background: #777;
 }
 
