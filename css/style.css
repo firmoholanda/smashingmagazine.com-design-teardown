@@ -23,13 +23,15 @@ div {
 }
 
 .nb-logo {
-  flex: 1 0 13%;
+  flex: 1 0 auto;
   background:  #111;
 }
 
 .nb-logo a img {
-  width: 228px;
-  height: 83px;
+  position: relative;
+  top: 5px;
+  width: 225px;
+  height: 81px;
 }
 
 .nb-item {
@@ -54,7 +56,7 @@ div {
 }
 
 .nb-button {
-  flex: 1 0 8%;
+  flex: 1 0 10%;
   background:  #222;
 }
 
@@ -98,15 +100,17 @@ div {
   position: absolute;
   top: 200px;
   z-index: 1;
-  background:  #111;
+  background: #111;
+  padding: 10px;
 }
 
 .text-popup02 {
   height: 30px !important;
   position: absolute;
-  top: 230px;
+  top: 250px;
   z-index: 1;
-  background:  #111;
+  background: #111;
+  padding: 10px;
 }
 
 .seriously-red {
