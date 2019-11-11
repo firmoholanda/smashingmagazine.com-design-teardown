@@ -273,9 +273,15 @@ div {
 .blue-panel {
   height: 977px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; 
   background: #444;
+}
+
+.blue-panel img {
+  width: 920px;
+  height: 516px;
 }
 
 /* community-links --------------------------------------------------------------------*/
