@@ -81,6 +81,7 @@ div {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 0px 40px;
 }
 
 .latest-posts > div {
@@ -91,22 +92,26 @@ div {
 }
 
 .lp01 {
-  flex: 1 0 25%;
+  flex: 1 0 auto;
+  min-width: 25%;
   background:  #444;
 }
 
 .lp02 {
-  flex: 1 0 25%;
+  flex: 1 0 auto;
+  min-width: 25%;
   background:  #666;
 }
 
 .lp03 {
-  flex: 1 0 25%;
+  flex: 1 0 auto;
+  min-width: 25%;
   background: #888;
 }
 
 .lp04 {
-  flex: 1 0 25%;
+  flex: 1 0 auto;
+  min-width: 25%;
   background: #bebebe;
 }
 
@@ -173,11 +178,12 @@ div {
 
 /* see-all-articles -------------------------------------------------------------------*/
 .see-all-articles01 {
-  height: 200px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center; 
   background:  #c4c4c4;
+  margin: 150px 500px;
 }
 
 /* blue-panel -------------------------------------------------------------------------*/
@@ -195,6 +201,7 @@ div {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  padding: 45px;
 }
 
 .community-links > div {
@@ -248,18 +255,20 @@ div {
 
 
 .bio-image {
-  width: 18%;
-  height: 73px;
+  width: 81px;
+  height: 81px;
   top: 0;
   left: 0;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 15px;
 }
 
 .bi01 {
   height: 286px;
+  width: 286px;
   background: #222;
 }
 
@@ -290,11 +299,12 @@ div {
 
 /* more-links -------------------------------------------------------------------------*/
 .more-links {
-  height: 172px;
+  height: 54px;
   display: flex;
   justify-content: center;
   align-items: center; 
   background: #dcdcdc;
+  margin: 50px 600px 100px;
 }
 
 /* feature-panel ----------------------------------------------------------------------*/
@@ -310,7 +320,8 @@ div {
 .curated-posts {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
+  padding: 40px 40px;
 }
 
 .curated-posts > div {
@@ -352,6 +363,7 @@ div {
   justify-content: center;
   align-items: center; 
   background: #222;
+  margin: 15px 85px;
 }
 
 /* see-all-articles -------------------------------------------------------------------*/
@@ -361,6 +373,7 @@ div {
   justify-content: center;
   align-items: center; 
   background: #999;
+  margin: 200px 500px 100px 500px;
 }
 
 /* footer -----------------------------------------------------------------------------*/
@@ -370,48 +383,58 @@ div {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
-  align-items: flex-start;
   align-content: center;
   position: relative;
   align-items: center;
-  justify-content: center;
   background: #222;
+}
+
+.footer > div, .footer-bottom {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto;
+  width: 80%;
+  text-align: center;
+}
+
+.footer-bottom > div:not(.footer-image) {
+  width: 100%;
 }
 
 .footer-title {
   height: 31px;
-  width: 1515px;
   display: flex;
-  flex: 0 1 auto;
-  background: #555;
+  background: #999;
 }
 
 .footer-topics {
   height: 224px;
-  display: flex;
-  flex: 0 1 auto;
-  background: #555;
+  background: #444;
+}
+
+.footer-bottom {
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .footer-image {
-  height: 200px;
-  width: 200px;
-  display: flex;
-  flex: 0 1 auto;
+  height: 222px;
+  width: 222px;
   position: absolute;
-  background: #555;
+  bottom: 0;
+  left: 0;
+  background: #666;
 }
 
 .footer-notes {
   height: 224px;
-  display: flex;
-  flex: 0 1 auto;
-  background: #555;
+  background: #888;
 }
 
 .footer-links {
   height: 224px;
-  display: flex;
-  flex: 0 1 auto;
-  background: #555;
+  background: #999;
 }
