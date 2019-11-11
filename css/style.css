@@ -177,7 +177,7 @@ div {
 }
 
 /* see-all-articles -------------------------------------------------------------------*/
-.see-all-articles01 {
+.see-all-articles {
   height: 70px;
   display: flex;
   justify-content: center;
@@ -366,20 +366,9 @@ div {
   margin: 15px 85px;
 }
 
-/* see-all-articles -------------------------------------------------------------------*/
-.see-all-articles02 {
-  height: 185px;
-  display: flex;
-  justify-content: center;
-  align-items: center; 
-  background: #999;
-  margin: 200px 500px 100px 500px;
-}
-
 /* footer -----------------------------------------------------------------------------*/
 .footer {
   height: 728px;
-  width: 100vw;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -421,20 +410,29 @@ div {
 }
 
 .footer-image {
-  height: 222px;
-  width: 222px;
+  height: 224px;
+  width: 224px;
   position: absolute;
   bottom: 0;
   left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #666;
 }
 
 .footer-notes {
   height: 224px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #888;
 }
 
 .footer-links {
   height: 224px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #999;
 }
