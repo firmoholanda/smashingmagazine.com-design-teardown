@@ -205,12 +205,14 @@ div {
 }
 
 .cl01 {
-  flex: 1 0 20%;
+  flex: 1 0 100%;
+  position: relative;
   background:  #444;
 }
 
 .cl02 {
-  flex: 1 0 80%;
+  flex: 1 0 50%;
+  position: relative;
   background:  #666;
 }
 
@@ -244,11 +246,6 @@ div {
   background:  #888;
 }
 
-.cl08 {
-  flex: 1 0 50%;
-  position: relative;
-  background:  #999;
-}
 
 .bio-image {
   width: 18%;
@@ -262,6 +259,7 @@ div {
 }
 
 .bi01 {
+  height: 286px;
   background: #222;
 }
 
@@ -289,60 +287,131 @@ div {
   background: #777;
 }
 
-.bi08 {
-  background: #777;
-}
 
 /* more-links -------------------------------------------------------------------------*/
 .more-links {
-  height: 980px;
+  height: 172px;
   display: flex;
   justify-content: center;
   align-items: center; 
-  background: #555;
+  background: #dcdcdc;
 }
 
 /* feature-panel ----------------------------------------------------------------------*/
 .feature-panel {
-  height: 980px;
+  height: 323px;
   display: flex;
   justify-content: center;
   align-items: center; 
-  background: #555;
+  background: #333;
 }
 
 /* curated-posts ----------------------------------------------------------------------*/
 .curated-posts {
-  height: 980px;
   display: flex;
   justify-content: center;
   align-items: center; 
-  background: #555;
+}
+
+.curated-posts > div {
+  height: 788px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cp01 {
+  flex: 1 0 25%;
+  position: relative;
+  background: #333;
+}
+
+.cp02 {
+  flex: 1 0 25%;
+  position: relative;
+  background: #444;
+}
+
+.cp03 {
+  flex: 1 0 25%;
+  position: relative;
+  background: #666;
+}
+
+.cp04 {
+  flex: 1 0 25%;
+  position: relative;
+  background: #999;
 }
 
 /* newsletter-panel -------------------------------------------------------------------*/
 .newsletter-panel {
-  height: 980px;
+  height: 975px;
   display: flex;
   justify-content: center;
   align-items: center; 
-  background: #555;
+  background: #222;
 }
 
 /* see-all-articles -------------------------------------------------------------------*/
 .see-all-articles02 {
-  height: 980px;
+  height: 185px;
   display: flex;
   justify-content: center;
   align-items: center; 
-  background: #555;
+  background: #999;
 }
 
 /* footer -----------------------------------------------------------------------------*/
 .footer {
-  height: 654px;
+  height: 728px;
+  width: 100vw;
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
-  align-items: center; 
+  align-items: flex-start;
+  align-content: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+}
+
+.footer-title {
+  height: 31px;
+  width: 1515px;
+  display: flex;
+  flex: 0 1 auto;
+  background: #555;
+}
+
+.footer-topics {
+  height: 224px;
+  display: flex;
+  flex: 0 1 auto;
+  background: #555;
+}
+
+.footer-image {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex: 0 1 auto;
+  position: absolute;
+  background: #555;
+}
+
+.footer-notes {
+  height: 224px;
+  display: flex;
+  flex: 0 1 auto;
+  background: #555;
+}
+
+.footer-links {
+  height: 224px;
+  display: flex;
+  flex: 0 1 auto;
   background: #555;
 }
