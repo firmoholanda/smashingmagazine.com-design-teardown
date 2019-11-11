@@ -461,16 +461,31 @@ div {
 
 /* back-to-top ------------------------------------------------------------------------*/
 .back-to-top {
-  position: fixed;
-  width: 20px;
-  height: 20px;
-  bottom: 50px;
-  right: 65px;
-  display: block;
-  background: 0 0;
-  opacity: 0.7;
+  width: 50px;
+  height: 50px;
+  opacity: .7;
   text-shadow: none;
   border-radius: 11px;
-  padding: 12.5px;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 9;
   box-sizing: border-box;
+  transform-origin: bottom left;
+  transform: rotate(-11deg);
+  transition: background-color .1s ease-out,transform .2s ease-out,opacity .1s ease-out,-webkit-transform .2s ease-out;
+  background-color: #666;
+  box-shadow: 0 7px 4px -3px rgb(48, 48, 48);
+}
+
+.back-to-top > svg {
+  display: block;
+  margin: 25% auto;
+}
+
+.back-to-top:hover {
+  transform: rotate(0);
+  background-color: #282634;
+  opacity: 1;
+  box-shadow: none;
 }
