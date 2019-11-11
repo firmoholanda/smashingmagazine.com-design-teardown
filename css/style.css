@@ -19,11 +19,11 @@ div {
   justify-content: center;
   align-items: center;  
   align-content: center;
-  padding: 35px;
+  padding: 35px 0;
 }
 
 .nb-logo {
-  flex: 1 0 auto;
+  flex: 1 0 12%;
   background:  #111;
 }
 
@@ -56,8 +56,13 @@ div {
 }
 
 .nb-button {
-  flex: 1 0 10%;
+  flex: 1 0 8%;
   background:  #222;
+}
+
+.nb-button img {
+  height: 18px;
+  width: 18px;
 }
 
 
