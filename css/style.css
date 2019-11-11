@@ -67,27 +67,27 @@ div {
 }
 
 .text-popup01 {
-  height: 20px;
+  height: 30px !important;
   position: absolute;
-  top: 60px;
+  top: 200px;
+  z-index: 1;
   background:  #111;
 }
 
 .text-popup02 {
-  height: 20px;
+  height: 30px !important;
   position: absolute;
-  top: 90px;
+  top: 230px;
+  z-index: 1;
   background:  #111;
 }
 
 .seriously-red {
-  height: 10px;
   position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 0;
-  right: 0;
+  height: 30px !important;
+  top: 200px;
+  right: 70px;
+  z-index: 1;
   background:  #333;
 }
 
