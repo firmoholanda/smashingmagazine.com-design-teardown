@@ -66,28 +66,25 @@ div {
   background:  #999;
 }
 
-.text-popup01 {
+.fa-floating {
   height: 30px ;
   position: absolute;
-  top: 200px;
   z-index: 1;
+  margin: auto;
+}
+.text-popup01 {
+  top: 200px;
   background:  #111;
 }
 
 .text-popup02 {
-  height: 30px;
-  position: absolute;
   top: 230px;
-  z-index: 1;
   background:  #111;
 }
 
 .seriously-red {
-  position: absolute;
-  height: 30px;
   top: 200px;
   right: 70px;
-  z-index: 1;
   background:  #333;
 }
 
@@ -203,11 +200,13 @@ div {
 /* see-all-articles -------------------------------------------------------------------*/
 .see-all-articles {
   height: 70px;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center; 
+  margin: 150px auto;
   background:  #c4c4c4;
-  margin: 150px 500px;
+  
 }
 
 /* blue-panel -------------------------------------------------------------------------*/
