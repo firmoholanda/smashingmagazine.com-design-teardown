@@ -93,9 +93,6 @@ p {
   width: 18px;
 }
 
-
-
-
 /* feature-articles -------------------------------------------------------------------*/
 .feature-articles {
   display: flex;
@@ -111,6 +108,7 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 0px 7px 4px 3px rgb(48, 48, 48, 0.3);
 }
 
 .fa01 {
