@@ -274,7 +274,7 @@ div {
   height: 440px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .cl01 {
@@ -322,12 +322,12 @@ div {
 .bio-image {
   width: 81px;
   height: 81px;
-  top: 0;
-  left: 0;
-  position: absolute;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  align-self: flex-start;
+  justify-self: flex-start;
   margin: 15px;
 }
 
