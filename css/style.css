@@ -512,11 +512,79 @@ h1, h2, h3, h4, h6 {
 
 /* feature-panel ----------------------------------------------------------------------*/
 .feature-panel {
-  height: 323px;
+  height: 437px;
   display: flex;
-  justify-content: center;
-  align-items: center; 
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start; 
   background: #333;
+  padding: 54px 76px;
+}
+
+.feature-panel div:first-child {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0 22px;
+}
+
+.feature-panel div:last-child {
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  width: 255px;
+  margin-left: 350px;
+}
+
+.feature-panel h5 {
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  margin: 0 0 10px 0;
+}
+
+.feature-panel h2 {
+  display: block;
+  width: 351px;
+  font-family: 'Sahitya', Arial, sans-serif;
+  font-size: 3.3em;
+  margin: 0 0 20px 0;
+  border-bottom: 4px solid rgba(255, 255, 255, .3);
+  line-height: 0.8;
+}
+
+.feature-panel p {
+  font-family: 'Lola', Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  line-height: 1.8;
+}
+
+.feature-panel button {
+  width: 288px;
+  height: 69px;
+  font-size: 1.7em;
+  font-weight: 600;
+  border-radius: 11px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+}
+
+.feature-panel img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 255px;
+  height: 371px;
+  transform-origin: bottom left;
+  transform: rotate(-11deg);
+  transition: background-color .1s ease-out,transform .2s ease-out,opacity .1s ease-out,-webkit-transform .2s ease-out;
+}
+
+.feature-panel img:hover {
+  transform: rotate(0);
+  opacity: 1;
+  box-shadow: none;
 }
 
 /* curated-posts ----------------------------------------------------------------------*/
@@ -544,7 +612,7 @@ h1, h2, h3, h4, h6 {
 }
 
 .curated-posts > div h6 {
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: 300;
   line-height: 2.8;
   padding: 0;
@@ -552,16 +620,21 @@ h1, h2, h3, h4, h6 {
 }
 
 .curated-posts > div h4 {
-  font-size: 1.7em;
-  font-weight: 500;
+  font-size: 1.9em;
+  font-weight: 600;
   padding-bottom: 30px;
   margin: 0;
 }
 
+.curated-posts > div ul > li {
+  color: #d3392b;
+}
+
 .curated-posts > div ul > li a {
-  color: white;
-  font-size: 1.3em;
-  line-height: 2;
+  color: #dcdcdc;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.8;
 }
 
 .cp01 {
