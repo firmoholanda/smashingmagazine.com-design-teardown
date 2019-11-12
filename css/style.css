@@ -450,10 +450,17 @@ div {
 .newsletter-panel {
   height: 975px;
   display: flex;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center; 
   background: #222;
   margin: 15px 85px;
+}
+
+.newsletter-panel img {
+  display: block;
+  height: 497px;
+  width: 536px;
 }
 
 /* footer -----------------------------------------------------------------------------*/
