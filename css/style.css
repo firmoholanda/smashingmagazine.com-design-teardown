@@ -434,7 +434,7 @@ h1, h2, h3, h4, h6 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 45px;
+  padding: 45px 35px;
 }
 
 .community-links > div {
@@ -442,12 +442,88 @@ h1, h2, h3, h4, h6 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  padding: 30px;
+}
+
+/* CL Pictures
+.community-links > div:not(.cl01) div:first-child {
+  padding: 0 20px;
+  margin-left: -10px;
+}  */
+
+/* All CL (except .cl01) Author Name */
+.community-links > div:not(.cl01) div:last-child h4 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Span Element in All CL */
+.community-links > div:not(.cl01) div:last-child h4 span {
+  display: inline-block;
+}
+
+/* All Author Underlines */
+.community-links > div:not(.cl01) div:last-child h4 {
+  text-decoration: underline;
+}
+
+/* All Article Headings */
+.community-links > div:not(.cl01) div:last-child h3 {
+  font-size: 2.2em;
+  padding: 0;
+  margin: 15px 0;
+}
+
+/* Article Preview Span Custom */
+.community-links > div:not(.cl01) div:last-child p span {
+  display: inline-block;
+  font-size: 0.95em;
+  color: #dcdcdc;
+}
+
+/* All Article Previews (not date) */
+.community-links > div:not(.cl01) div:last-child p:not(span) {
+  font-size: 1.3em;
+  font-weight: 300;
+  line-height: 1.7;
 }
 
 .cl01 {
+  display: block;
   flex: 1 0 100%;
   position: relative;
   background:  #444;
+}
+
+.cl01 div:first-child {
+  margin-right: 25px;
+}
+
+.cl01 div:first-child div {
+  height: 230px;
+  width: 230px;
+  background: #D3392B;
+  border-radius: 11px;
+}
+
+.cl01 img {
+  height: 220px;
+  width: 220px;
+  border-radius: 11px;
+}
+
+.cl01 h5 {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #dcdcdc;
+  margin: 20px 0 30px 0;
+}
+
+.cl01 p {
+  font-size: 1.4em;
+  line-height: 1.5;
+  font-weight: 400;
 }
 
 .cl02 {
@@ -495,7 +571,21 @@ h1, h2, h3, h4, h6 {
   align-items: center;
   align-self: flex-start;
   justify-self: flex-start;
-  margin: 15px;
+  margin-right: 25px;
+  border-radius: 8px;
+  background: #D3392B;
+}
+
+/* Round All Authors Profile Images */
+.community-links > div:not(.cl01) .bio-image img {
+  height: 73px;
+  width: 73px;
+  border-radius: 4px;
+}
+
+/* Set Red Background (Border) */
+.community-links > div:not(.cl01) .bio-image {
+  background-color: #D3392B;
 }
 
 .bi01 {
@@ -505,7 +595,7 @@ h1, h2, h3, h4, h6 {
 }
 
 .bi02 {
-  background: #222;
+  background: #D3392B;
 }
 
 .bi03 {
@@ -597,6 +687,13 @@ h1, h2, h3, h4, h6 {
   margin-top: 10px;
   border: none;
   outline: none;
+  color: #333;
+  transition-duration: 0.3s;
+}
+
+.feature-panel button:hover {
+  color: #D3392B;
+  transition-duration: 0.5s;
 }
 
 .feature-panel img {
