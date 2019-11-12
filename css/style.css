@@ -362,7 +362,26 @@ h1, h2, h3, h4, h6 {
 .see-all-articles p {
   font-size: 1em;
   border-bottom: 6px solid #fff;
+  transition-duration: 0.3s;
   line-height: 2;
+}
+
+.see-all-articles p .fas {
+  display: inline-block;
+  justify-content: center;
+  padding: 0;
+  font-size: 0.8em;
+}
+
+.see-all-articles p:hover {
+  color: #333;
+  border-bottom: 6px solid #333;
+  transition-duration: 0.5s;
+}
+
+.see-all-articles p:hover .fas {
+  color: #333;
+  transition-duration: 0.5s;
 }
 
 /* blue-panel -------------------------------------------------------------------------*/
@@ -505,7 +524,7 @@ h1, h2, h3, h4, h6 {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 40px 40px;
+  padding: 30px 40px;
 }
 
 .curated-posts > div {
@@ -517,15 +536,15 @@ h1, h2, h3, h4, h6 {
   align-items: left;
   align-content: flex-start;
   flex-flow: column nowrap;
-  padding: 30px;
+  padding: 20px 30px;
 }
 
 .curated-posts > div ul {
-  margin: 0;
+  margin-top: 10px;
 }
 
 .curated-posts > div h6 {
-  font-size: 0.9em;
+  font-size: 1.4em;
   font-weight: 300;
   line-height: 2.8;
   padding: 0;
@@ -570,10 +589,11 @@ h1, h2, h3, h4, h6 {
   align-items: center; 
   background: #222;
   margin: 15px 85px;
+  padding: 40px;
 }
 
 .newsletter-panel h2 {
-  font-size: 2.6em;
+  font-size: 3em;
   border-bottom: 3px solid rgba(255, 255, 255, .4);
   line-height: 0.9;
 }
@@ -581,8 +601,9 @@ h1, h2, h3, h4, h6 {
 .newsletter-panel p {
   width: 45%;
   text-align: center;
-  line-height: 2;
-  font-size: 1.1em;
+  line-height: 1.9;
+  font-size: 1.3em;
+  font-weight: regular;
 }
 
 .newsletter-panel img {
@@ -594,16 +615,15 @@ h1, h2, h3, h4, h6 {
 
 .newsletter-panel form {
   text-align: center;
-  height: 50px;
-  width: 530px;
+  height: 65px;
+  width: 460px;
   margin: 20px 0 10px 0;
-  overflow: hidden;
 }
 
 .newsletter-panel form input {
   display: inline-block;
-  height: 50px;
-  width: 60%;
+  height: 65px;
+  width: 59%;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   border: none;
@@ -614,11 +634,11 @@ h1, h2, h3, h4, h6 {
 .newsletter-panel form button {
   display: inline-block;
   position: relative;
-  top: 0.5px;
-  height: 50px;
-  width: 40%;
-  font-size: 1.2em;
-  font-weight: 600;
+  top: 2px;
+  height: 65px;
+  width: 39%;
+  font-size: 1.5em;
+  font-weight: 700;
   padding: 0;
   outline: none;
   background: #dcdcdc;
@@ -627,6 +647,13 @@ h1, h2, h3, h4, h6 {
   border: none;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.newsletter-panel form button .fas {
+  display: inline-block;
+  justify-content: center;
+  padding: 0;
+  font-size: 0.8em;
 }
 
 .newsletter-panel form button:hover {
@@ -645,7 +672,6 @@ h1, h2, h3, h4, h6 {
   align-items: center;
   background: #222;
   z-index: 1;
-  padding: 0 0 53px;
 }
 
 .footer > div, .footer-bottom {
@@ -674,9 +700,9 @@ h1, h2, h3, h4, h6 {
 }
 
 .footer-title > h5 {
-  font-size: 0.95em;
+  font-size: 1em;
   font-weight: 600;
-  padding: 50px 0 10px 0;
+  padding: 30px 0 10px 0;
 }
 
 /* Topics */
@@ -685,6 +711,7 @@ h1, h2, h3, h4, h6 {
   width: 1515px;
   height: auto;
   background: #444;
+  padding: 0 5px;
 }
 
 .footer-topics ul {
@@ -694,7 +721,7 @@ h1, h2, h3, h4, h6 {
 .footer-topics ul li {
   display: inline;
   padding-left: 3px;
-  line-height: 2.3;
+  line-height: 1.9;
   margin-right: 2px;
 }
 
@@ -706,7 +733,7 @@ h1, h2, h3, h4, h6 {
 
 .footer-topics a {
   color: white;
-  font-size: 1.4em;
+  font-size: 1.6em;
   text-decoration: none;
 }
 
@@ -742,24 +769,30 @@ h1, h2, h3, h4, h6 {
 }
 
 .footer-notes {
-  height: 150px;
+  height: 200px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   background: #999;
-  line-height: 1.6;
-  padding-top: 30px;
+  line-height: 1.3;
+  padding-top: 50px;
 }
 
 .footer-notes a {
   color: white;
 }
 
+.footer-notes p:first-child {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 0.95em;
+}
+
 .footer-notes p {
   margin: 0;
   padding: 3px;
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 
 .footer-links {
@@ -780,12 +813,12 @@ h1, h2, h3, h4, h6 {
 .footer-links ul li {
   display: inline;
   list-style: none;
-  line-height: 2.7;
+  line-height: 2.3;
 }
 
 .footer-links ul li a {
   color: white;
-  font-size: 0.95em;
+  font-size: 1.1em;
   font-weight: 400;
   z-index: 10;
 }
