@@ -415,12 +415,76 @@ h1, h2, h3, h4, h6 {
 
 /* blue-panel -------------------------------------------------------------------------*/
 .blue-panel {
-  height: 977px;
+  height: 1132px;
+  width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center; 
   background: #444;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.blue-panel h5 {
+  font-size: 1.15em;
+  font-weight: 400;
+  margin: 0 0 18px 0;
+  letter-spacing: 2px;
+}
+
+.blue-panel h5 span {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.blue-panel h3 {
+  display: block;
+  width: 60%;
+  font-size: 3.3em;
+  margin: 7px 0 5px 0;
+}
+
+.blue-panel h3 span {
+  display: inline-block;
+  line-height: 0.8;
+  border-bottom: 4px solid rgba(255, 255, 255, .4);
+}
+
+.blue-panel p {
+  width: 55%;
+  font-size: 1.7em;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.blue-panel button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 434px;
+  height: 69px;
+  font-size: 1.7em;
+  font-weight: 600;
+  color: #333;
+  padding: 0;
+  border-radius: 11px;
+  margin: 30px 0 55px 0;
+  transition-duration: 0.3s;
+}
+
+.blue-panel button:hover {
+  color: #d3392b;
+  transition-duration: 0.5s;
+}
+
+.blue-panel button .fas {
+  display: inline;
+  position: relative;
+  top: 2px;
+  font-size: 1.4em;
+  padding: 0;
 }
 
 .blue-panel img {
@@ -444,12 +508,6 @@ h1, h2, h3, h4, h6 {
   align-items: flex-start;
   padding: 30px;
 }
-
-/* CL Pictures
-.community-links > div:not(.cl01) div:first-child {
-  padding: 0 20px;
-  margin-left: -10px;
-}  */
 
 /* All CL (except .cl01) Author Name */
 .community-links > div:not(.cl01) div:last-child h4 {
@@ -676,24 +734,6 @@ h1, h2, h3, h4, h6 {
   font-size: 1.2em;
   font-weight: 300;
   line-height: 1.8;
-}
-
-.feature-panel button {
-  width: 288px;
-  height: 69px;
-  font-size: 1.7em;
-  font-weight: 600;
-  border-radius: 11px;
-  margin-top: 10px;
-  border: none;
-  outline: none;
-  color: #333;
-  transition-duration: 0.3s;
-}
-
-.feature-panel button:hover {
-  color: #D3392B;
-  transition-duration: 0.5s;
 }
 
 .feature-panel img {
