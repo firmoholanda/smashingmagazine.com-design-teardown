@@ -38,7 +38,16 @@ h1, h2, h3, h4, h6 {
   justify-content: center;
   align-items: center;  
   align-content: center;
-  padding: 35px 0;
+  padding: 80px 0;
+}
+
+.navbar h2 {
+  font-size: 1.5em;
+  line-height: 40px;
+}
+
+.navbar p {
+  font-size: 0.9em;
 }
 
 .nb-logo {
@@ -55,7 +64,7 @@ h1, h2, h3, h4, h6 {
 
 .nb-item {
   flex: 1 0 auto;
-  background:  #333;
+  background: #333;
   width: 50px;
   height: 50px;
 }
@@ -72,8 +81,8 @@ h1, h2, h3, h4, h6 {
 }
 
 .nb-item a img {
-  height: 48px;
-  width: 42px;
+  height: 40px;
+  width: 35px;
   bottom: 1em;
   right: 1em;
   z-index: 5;
@@ -144,11 +153,12 @@ h1, h2, h3, h4, h6 {
   display: block;
   justify-content: center;
   text-align: left;
+  font-size: bold;
   padding: 25px 70px;
 }
 
 .fa-title h2 {
-  font-size: 2em;
+  font-size: 2.7em;
 }
 
 .fa-title span {
@@ -204,11 +214,11 @@ h1, h2, h3, h4, h6 {
 }
 
 .fa-teaser {
-  height: 30px !important;
+  height: 50px !important;
   position: absolute;
   z-index: 1;
-  font-family: 'Sahitya', serif;
-  font-weight: 500;
+  font-size: 1.5em;
+  font-weight: bold;
   box-shadow: 0px 7px 4px 3px rgb(48, 48, 48, 0.3);
 }
 
@@ -229,6 +239,9 @@ h1, h2, h3, h4, h6 {
   right: 70px;
   background:  #333;
   padding: 10px;
+  box-sizing: border-box;
+  border-radius: 11px;
+  border: 1px solid #fff;;
 }
 
 /* membership-panel -------------------------------------------------------------------*/
@@ -439,7 +452,7 @@ h1, h2, h3, h4, h6 {
   display: flex;
   justify-content: center;
   align-items: center; 
-  margin: 21px auto 100px auto;
+  margin: 100px auto 100px auto;
   background:  #c4c4c4;
 }
 
