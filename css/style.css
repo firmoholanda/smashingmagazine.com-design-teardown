@@ -13,7 +13,7 @@ div {
   color: #fff;
 }
 
-h2 {
+h2, h3 {
   font-size: 1em;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -118,6 +118,11 @@ h1, h2, h3, h4, h6 {
   flex-direction: column;
 }
 
+.feature-articles .fa-long-arrow-alt-right {
+  padding: 30px 70px;
+}
+
+
 .fa-image-name {
   display: flex;
   align-items: center;
@@ -171,8 +176,7 @@ h1, h2, h3, h4, h6 {
 .fa-long-arrow-alt-right {
   display: flex;
   justify-content:left;
-  padding-left: 70px;
-  padding-top: 100px;
+  padding-left: 20px;
   font-size: 2em;
 }
 
@@ -242,15 +246,46 @@ h1, h2, h3, h4, h6 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0px 40px;
+  padding: 0px 30px;
 }
 
 .latest-posts > div {
-  height: 599px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lp-text {
+  height: 600px;
+  padding: 10px 20px 0;
+  position: relative;
+}
+
+.lp-text h3 {
+  font-size: 1.6em;
+  text-decoration: underline;
+}
+
+.lp-text p {
+  font-family: 'Lora', serif;
+  font-size: 1.1em;
+  line-height: 1.8em;
+}
+
+.lp-text i {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+
+.arrow i{
+  position: absolute;
+  left: 0;
+  bottom: 20px;
 }
 
 .lp01 {
@@ -279,7 +314,54 @@ h1, h2, h3, h4, h6 {
 
 .lp05 {
   flex: 1 0 50%;
+  border-radius: 11px;
+  text-align: center;
   background: #222;
+}
+
+.lp05 img,
+.lp10 img {
+  padding-top: 20px;
+  width: 254px;
+  height: 244px;
+}
+
+.lp05 h3,
+.lp05 h3 {
+  font-size: 2.5em;
+  line-height: 1.5px;
+  padding: 20px;
+}
+
+.lp05 button,
+.lp10 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  font-size: 1.3em;
+  font-weight: 600;
+  border-radius: 11px;
+  color: #006fc6;
+  border: none;
+  outline: none;
+}
+
+.lp05 button:hover, 
+.lp10 button:hover {
+  color: #d33a2c;
+}
+
+.lp10 button {
+  width: 300px;
+}
+
+.lp05 button i,
+.lp10 button i {
+  font-size: 0.9em;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
 .lp06 {
@@ -308,6 +390,8 @@ h1, h2, h3, h4, h6 {
 
 .lp10 {
   flex: 1 0 50%;
+  border-radius: 11px;
+  text-align: center;
   background: #222;
 }
 
