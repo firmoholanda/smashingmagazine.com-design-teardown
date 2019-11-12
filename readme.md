@@ -29,7 +29,7 @@ this project can be found in https://github.com/firmoholanda/smashingmagazine.co
 ### ✨ [live version](https://raw.githack.com/firmoholanda/smashingmagazine.com-design-teardown/development/index.html)
 this is the prototype image:
 <a href="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/prototype-heatmap.png" target="_blank">
-    <img alt="page animation" src="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/prototype-heatmap.png"/>
+    <img alt="page animation" style="height: 200px" src="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/prototype-heatmap.png"/>
 </a>
 
 <a href="https://raw.githack.com/firmoholanda/smashingmagazine.com-design-teardown/development/index.html" target="_blank">
