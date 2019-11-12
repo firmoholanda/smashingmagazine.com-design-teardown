@@ -9,6 +9,14 @@ div {
   color: #fff;
 }
 
+h2 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 0.8em;
+}
+
 /* navbar -----------------------------------------------------------------------------*/
 .navbar {
   display: flex;
@@ -38,7 +46,10 @@ div {
 .nb-item {
   flex: 1 0 auto;
   background:  #333;
+  width: 50px;
+  height: 50px;
 }
+
 
 .nb-item a {
   display: block;
@@ -52,8 +63,25 @@ div {
 }
 
 .nb-item a img {
-  height: 54px;
-  width: 48px;
+  height: 48px;
+  width: 42px;
+  bottom: 1em;
+  right: 1em;
+  z-index: 5;
+  box-sizing: border-box;
+  transform-origin: bottom left;
+  transform: rotate(-11deg);
+  transition: background-color .1s ease-out,transform .2s ease-out,opacity .1s ease-out,-webkit-transform .2s ease-out;
+  box-shadow: 0 7px 4px -3px rgb(48, 48, 48);
+}
+
+.nb-item:hover.nb-item span {
+  color: #000;
+}
+
+.nb-item:hover.nb-item a img {
+  transform: rotate(0);
+  box-shadow: none;
 }
 
 .nb-button {
@@ -65,9 +93,6 @@ div {
   height: 18px;
   width: 18px;
 }
-
-
-
 
 /* feature-articles -------------------------------------------------------------------*/
 .feature-articles {
@@ -84,6 +109,7 @@ div {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  box-shadow: 0px 7px 4px 3px rgb(48, 48, 48, 0.3);
 }
 
 .fa01 {
