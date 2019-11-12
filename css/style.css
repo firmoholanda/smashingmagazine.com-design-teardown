@@ -327,6 +327,22 @@ h1, h2, h3, h4, h6 {
   padding: 20px;
 }
 
+.lp05 button {
+	background-color:#fff;
+	border-radius:11px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#0583f2;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+}
+.lp05 button:hover {
+
+}
+
 .lp06 {
   flex: 1 0 25%;
   position: relative;
