@@ -50,9 +50,6 @@ p {
   height: 50px;
 }
 
-.nb-item span:hover {
-  color: #000;
-}
 
 .nb-item a {
   display: block;
@@ -78,7 +75,11 @@ p {
   box-shadow: 0 7px 4px -3px rgb(48, 48, 48);
 }
 
-.nb-item a img:hover {
+.nb-item:hover.nb-item span {
+  color: #000;
+}
+
+.nb-item:hover.nb-item a img {
   transform: rotate(0);
   box-shadow: none;
 }
