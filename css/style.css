@@ -415,10 +415,10 @@ div {
 .curated-posts > div {
   height: 788px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
   align-content: flex-start;
-  flex-direction: column;
+  flex-flow: column nowrap;
 }
 
 
