@@ -5,6 +5,10 @@ body {
   font-family: 'Sahitya', serif;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 div {
   color: #fff;
 }
@@ -346,13 +350,19 @@ h1, h2, h3, h4, h6 {
 
 /* see-all-articles -------------------------------------------------------------------*/
 .see-all-articles {
-  height: 70px;
+  height: 50px;
   width: 200px;
   display: flex;
   justify-content: center;
   align-items: center; 
-  margin: 150px auto;
+  margin: 190px auto 100px auto;
   background:  #c4c4c4;
+}
+
+.see-all-articles p {
+  font-size: 1em;
+  border-bottom: 6px solid #fff;
+  line-height: 2;
 }
 
 /* blue-panel -------------------------------------------------------------------------*/
@@ -501,34 +511,53 @@ h1, h2, h3, h4, h6 {
 .curated-posts > div {
   height: 788px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
-  flex-flow: column nowrap;
-}
-
-
-.cp01 {
   flex: 1 0 25%;
   position: relative;
+  justify-content: flex-start;
+  align-items: left;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  padding: 30px;
+}
+
+.curated-posts > div ul {
+  margin: 0;
+}
+
+.curated-posts > div h6 {
+  font-size: 0.9em;
+  font-weight: 300;
+  line-height: 2.8;
+  padding: 0;
+  margin: 0;
+}
+
+.curated-posts > div h4 {
+  font-size: 1.7em;
+  font-weight: 500;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.curated-posts > div ul > li a {
+  color: white;
+  font-size: 1.3em;
+  line-height: 2;
+}
+
+.cp01 {
   background: #333;
 }
 
 .cp02 {
-  flex: 1 0 25%;
-  position: relative;
   background: #444;
 }
 
 .cp03 {
-  flex: 1 0 25%;
-  position: relative;
   background: #666;
 }
 
 .cp04 {
-  flex: 1 0 25%;
-  position: relative;
   background: #999;
 }
 
@@ -537,28 +566,86 @@ h1, h2, h3, h4, h6 {
   height: 975px;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center; 
   background: #222;
   margin: 15px 85px;
 }
 
+.newsletter-panel h2 {
+  font-size: 2.6em;
+  border-bottom: 3px solid rgba(255, 255, 255, .4);
+  line-height: 0.9;
+}
+
+.newsletter-panel p {
+  width: 45%;
+  text-align: center;
+  line-height: 2;
+  font-size: 1.1em;
+}
+
 .newsletter-panel img {
   display: block;
-  height: 497px;
-  width: 536px;
+  height: 490px;
+  width: 530px;
+  margin: 30px 0 15px 0
+}
+
+.newsletter-panel form {
+  text-align: center;
+  height: 50px;
+  width: 530px;
+  margin: 20px 0 10px 0;
+  overflow: hidden;
+}
+
+.newsletter-panel form input {
+  display: inline-block;
+  height: 50px;
+  width: 60%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.newsletter-panel form button {
+  display: inline-block;
+  position: relative;
+  top: 0.5px;
+  height: 50px;
+  width: 40%;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 0;
+  outline: none;
+  background: #dcdcdc;
+  color: #333;
+  transition-duration: 0.3s;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.newsletter-panel form button:hover {
+  color: #D3392B;
+  transition-duration: 0.5s;
 }
 
 /* footer -----------------------------------------------------------------------------*/
 .footer {
-  height: 728px;
+  height: 768px;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   position: relative;
   align-items: center;
   background: #222;
+  z-index: 1;
+  padding: 0 0 53px;
 }
 
 .footer > div, .footer-bottom {
@@ -567,7 +654,7 @@ h1, h2, h3, h4, h6 {
   justify-content: flex-start;
   align-items: center;
   flex: 0 1 auto;
-  width: 80%;
+  width: 90%;
   text-align: center;
 }
 
@@ -575,32 +662,60 @@ h1, h2, h3, h4, h6 {
   width: 100%;
 }
 
+/* Title */
 .footer-title {
-  height: 31px;
+  height: auto;
   display: flex;
+  justify-content: flex-start;
   background: #999;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  box-sizing: border-box;
 }
 
+.footer-title > h5 {
+  font-size: 0.95em;
+  font-weight: 600;
+  padding: 50px 0 10px 0;
+}
+
+/* Topics */
 .footer-topics {
   display: block;
-  height: 224px;
+  width: 1515px;
+  height: auto;
   background: #444;
+}
+
+.footer-topics ul {
+  padding: 5px 0 5px 0;
 }
 
 .footer-topics ul li {
   display: inline;
-  list-style: none;
+  padding-left: 3px;
+  line-height: 2.3;
+  margin-right: 2px;
 }
 
 .footer-topics ul li::before {
   content: '\2022';
-  margin-right: 0.5em;
+  font-size: 2em;
+  margin-right: 0.2em;
 }
 
 .footer-topics a {
   color: white;
+  font-size: 1.4em;
+  text-decoration: none;
 }
 
+.footer-topics a:hover {
+  color: #111;
+  transition-duration: 0.15s;
+}
+
+/* Footer Bottom Section - Img, Notes & Links */
 .footer-bottom {
   justify-content: center;
   align-items: center;
@@ -608,41 +723,74 @@ h1, h2, h3, h4, h6 {
 }
 
 .footer-image {
-  height: 224px;
-  width: 224px;
+  height: 222px;
+  width: 222px;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 15px;
+  left: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #666;
+  background: #777;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.footer-image img {
+  height: 222px;
+  width: 222px;
 }
 
 .footer-notes {
-  height: 224px;
+  height: 150px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  background: #888;
+  background: #999;
+  line-height: 1.6;
+  padding-top: 30px;
+}
+
+.footer-notes a {
+  color: white;
+}
+
+.footer-notes p {
+  margin: 0;
+  padding: 3px;
+  font-size: 0.9em;
 }
 
 .footer-links {
-  height: 224px;
+  height: 155px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   background: #999;
+  z-index: 1;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.footer-links ul {
+  z-index: 10;
 }
 
 .footer-links ul li {
   display: inline;
   list-style: none;
-  z-index: 5;
+  line-height: 2.7;
 }
 
-/* back-to-top ------------------------------------------------------------------------*/
+.footer-links ul li a {
+  color: white;
+  font-size: 0.95em;
+  font-weight: 400;
+  z-index: 10;
+}
+
+/* back-to-top button ------------------------------------------------------------------------*/
 .back-to-top {
   width: 50px;
   height: 50px;
