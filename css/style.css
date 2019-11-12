@@ -355,8 +355,37 @@ h1, h2, h3, h4, h6 {
   display: flex;
   justify-content: center;
   align-items: center; 
-  margin: 190px auto 100px auto;
+  margin: 21px auto 100px auto;
   background:  #c4c4c4;
+}
+
+.see-all-articles-twitter {
+  height: 58px;
+  width: 253px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  align-content: center;
+  margin: 21px auto 100px auto;
+  background:  #c4c4c4;
+}
+
+.see-all-articles-twitter p {
+  display: inline;
+  font-size: 1.2em;
+  color: #fff;
+  border-bottom: 6px solid #fff;
+  transition-duration: 0.3s;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+.see-all-articles-twitter p .fas {
+  display: inline-block;
+  justify-content: center;
+  padding: 0;
+  font-size: 0.8em;
 }
 
 .see-all-articles p {
@@ -373,13 +402,13 @@ h1, h2, h3, h4, h6 {
   font-size: 0.8em;
 }
 
-.see-all-articles p:hover {
+.see-all-articles p:hover, .see-all-articles-twitter p:hover {
   color: #333;
   border-bottom: 6px solid #333;
   transition-duration: 0.5s;
 }
 
-.see-all-articles p:hover .fas {
+.see-all-articles p:hover .fas, .see-all-articles p:hover .fas {
   color: #333;
   transition-duration: 0.5s;
 }
@@ -661,8 +690,9 @@ h1, h2, h3, h4, h6 {
   justify-content: flex-start;
   align-items: center; 
   background: #222;
-  margin: 15px 85px;
+  margin: 15px 85px 180px 85px;
   padding: 40px;
+  border-radius: 11px;
 }
 
 .newsletter-panel h2 {
@@ -691,6 +721,7 @@ h1, h2, h3, h4, h6 {
   height: 65px;
   width: 460px;
   margin: 20px 0 10px 0;
+  overflow: hidden;
 }
 
 .newsletter-panel form input {
