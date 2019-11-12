@@ -450,34 +450,53 @@ p {
 .curated-posts > div {
   height: 788px;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
-  flex-flow: column nowrap;
-}
-
-
-.cp01 {
   flex: 1 0 25%;
   position: relative;
+  justify-content: flex-start;
+  align-items: left;
+  align-content: flex-start;
+  flex-flow: column nowrap;
+  padding: 30px;
+}
+
+.curated-posts > div ul {
+  margin: 0;
+}
+
+.curated-posts > div h6 {
+  font-size: 0.9em;
+  font-weight: 300;
+  line-height: 2.8;
+  padding: 0;
+  margin: 0;
+}
+
+.curated-posts > div h4 {
+  font-size: 1.7em;
+  font-weight: 500;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.curated-posts > div ul > li a {
+  color: white;
+  font-size: 1.3em;
+  line-height: 2;
+}
+
+.cp01 {
   background: #333;
 }
 
 .cp02 {
-  flex: 1 0 25%;
-  position: relative;
   background: #444;
 }
 
 .cp03 {
-  flex: 1 0 25%;
-  position: relative;
   background: #666;
 }
 
 .cp04 {
-  flex: 1 0 25%;
-  position: relative;
   background: #999;
 }
 
