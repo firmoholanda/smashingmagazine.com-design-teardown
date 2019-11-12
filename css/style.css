@@ -9,7 +9,7 @@ div {
   color: #fff;
 }
 
-h2 {
+h2, h3 {
   font-size: 1em;
   margin-block-start: 0;
   margin-block-end: 0;
@@ -167,8 +167,7 @@ h1, h2, h3, h4, h6 {
 .fa-long-arrow-alt-right {
   display: flex;
   justify-content:left;
-  padding-left: 70px;
-  padding-top: 100px;
+  padding-left: 20px;
   font-size: 2em;
 }
 
@@ -238,15 +237,46 @@ h1, h2, h3, h4, h6 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0px 40px;
+  padding: 0px 30px;
 }
 
 .latest-posts > div {
-  height: 599px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lp-text {
+  height: 600px;
+  padding: 20px 20px 0;
+  position: relative;
+}
+
+.lp-text h3 {
+  font-size: 1.6em;
+  text-decoration: underline;
+}
+
+.lp-text p {
+  font-family: 'Lora', serif;
+  font-size: 1.1em;
+  line-height: 1.8em;
+}
+
+.lp-text i {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+
+.arrow i{
+  position: absolute;
+  left: 0;
+  bottom: 20px;
 }
 
 .lp01 {
@@ -275,6 +305,7 @@ h1, h2, h3, h4, h6 {
 
 .lp05 {
   flex: 1 0 50%;
+  border-radius: 11px;
   background: #222;
 }
 
@@ -304,6 +335,7 @@ h1, h2, h3, h4, h6 {
 
 .lp10 {
   flex: 1 0 50%;
+  border-radius: 11px;
   background: #222;
 }
 
