@@ -114,6 +114,11 @@ h1, h2, h3, h4, h6 {
   flex-direction: column;
 }
 
+.feature-articles .fa-long-arrow-alt-right {
+  padding: 30px 70px;
+}
+
+
 .fa-image-name {
   display: flex;
   align-items: center;
@@ -306,7 +311,20 @@ h1, h2, h3, h4, h6 {
 .lp05 {
   flex: 1 0 50%;
   border-radius: 11px;
+  text-align: center;
   background: #222;
+}
+
+.lp05 img{
+  padding-top: 20px;
+  width: 254px;
+  height: 244px;
+}
+
+.lp05 h3 {
+  font-size: 2.5em;
+  line-height: 1.5px;
+  padding: 20px;
 }
 
 .lp06 {
@@ -336,6 +354,7 @@ h1, h2, h3, h4, h6 {
 .lp10 {
   flex: 1 0 50%;
   border-radius: 11px;
+  text-align: center;
   background: #222;
 }
 
