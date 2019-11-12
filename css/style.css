@@ -257,7 +257,7 @@ h1, h2, h3, h4, h6 {
 
 .lp-text {
   height: 600px;
-  padding: 20px 20px 0;
+  padding: 10px 20px 0;
   position: relative;
 }
 
@@ -315,32 +315,49 @@ h1, h2, h3, h4, h6 {
   background: #222;
 }
 
-.lp05 img{
+.lp05 img,
+.lp10 img {
   padding-top: 20px;
   width: 254px;
   height: 244px;
 }
 
+.lp05 h3,
 .lp05 h3 {
   font-size: 2.5em;
   line-height: 1.5px;
   padding: 20px;
 }
 
-.lp05 button {
-	background-color:#fff;
-	border-radius:11px;
-	border:1px solid #ffffff;
-	display:inline-block;
-	cursor:pointer;
-	color:#0583f2;
-	font-size:15px;
-	font-weight:bold;
-	padding:10px 40px;
-	text-decoration:none;
+.lp05 button,
+.lp10 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 60px;
+  font-size: 1.3em;
+  font-weight: 600;
+  border-radius: 11px;
+  color: #006fc6;
+  border: none;
+  outline: none;
 }
-.lp05 button:hover {
 
+.lp05 button:hover, 
+.lp10 button:hover {
+  color: #d33a2c;
+}
+
+.lp10 button {
+  width: 300px;
+}
+
+.lp05 button i,
+.lp10 button i {
+  font-size: 0.9em;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
 .lp06 {
