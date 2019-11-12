@@ -27,9 +27,9 @@ basic HTML5, CSS3 and github was used on this solo project.
 this project can be found in https://github.com/firmoholanda/smashingmagazine.com-design-teardown
 
 ### ✨ [live version](https://raw.githack.com/firmoholanda/smashingmagazine.com-design-teardown/development/index.html)
-this is the prototype image:
+<p>this is the prototype image:</p>
 <a href="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/prototype-heatmap.png" target="_blank">
-    <img alt="page animation" height="300px" src="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/prototype-heatmap.png"/>
+    <img alt="page animation" height="500px" src="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/prototype-heatmap.png"/>
 </a>
 
 <a href="https://raw.githack.com/firmoholanda/smashingmagazine.com-design-teardown/development/index.html" target="_blank">
