@@ -2,7 +2,7 @@ body {
   /*width: 1680px;*/
   height: 100vw;
   font-size: 16px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Sahitya', serif;
 }
 
 div {
@@ -11,10 +11,16 @@ div {
 
 h2 {
   font-size: 1em;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 p {
   font-size: 0.8em;
+}
+
+h1, h2, h3, h4, h6 {
+  letter-spacing: 0.4px;
 }
 
 /* navbar -----------------------------------------------------------------------------*/
@@ -103,11 +109,67 @@ p {
 
 .feature-articles > div {
   flex: 1 0 50%;
-  height: 386px;
+  height: 700px;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+}
+
+.fa-image-name {
+  display: flex;
+  align-items: center;
+  padding-top: 150px;
+  padding-left: 70px; 
+}
+
+.fa-image-name h3 {
+  font-size: 1.5em;
+  padding: 0 10px;
+}
+
+.fa-image-name img {
+  width: 75px;
+  height: 75px;
+}
+
+.fa-title {
+  display: block;
+  justify-content: center;
+  text-align: left;
+  padding: 25px 70px;
+}
+
+.fa-title h2 {
+  font-size: 2em;
+}
+
+.fa-title span {
+  margin-top: 50px;
+  line-height: 3em;
+}
+
+.fa-mytag {
+  font-family: 'Lora', serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  padding: 20px 70px;
+}
+
+.fa-mytag span {
+  padding-right: 20px;
+}
+
+.fa-mytag sup {
+  padding-left: 5px;
+}
+
+.fa-long-arrow-alt-right {
+  display: flex;
+  justify-content:left;
+  padding-left: 70px;
+  padding-top: 100px;
+  font-size: 2em;
 }
 
 .fa01 {
@@ -137,6 +199,8 @@ p {
   height: 30px !important;
   position: absolute;
   z-index: 1;
+  font-family: 'Sahitya', serif;
+  font-weight: 500;
   box-shadow: 0px 7px 4px 3px rgb(48, 48, 48, 0.3);
 }
 
@@ -153,12 +217,9 @@ p {
 }
 
 .seriously-red {
-  height: 30px !important;
-  position: absolute;
   top: 200px;
   right: 70px;
   background:  #333;
-  z-index: 1;
   padding: 10px;
 }
 
