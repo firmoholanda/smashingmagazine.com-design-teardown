@@ -50,7 +50,6 @@ p {
   height: 50px;
 }
 
-
 .nb-item a {
   display: block;
   width: 100%;
@@ -109,7 +108,6 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0px 7px 4px 3px rgb(48, 48, 48, 0.3);
 }
 
 .fa01 {
@@ -134,20 +132,22 @@ p {
   z-index: 1;
   margin: auto;
 }
-.text-popup01 {
+
+.fa-teaser {
   height: 30px !important;
   position: absolute;
-  top: 200px;
   z-index: 1;
+  box-shadow: 0px 7px 4px 3px rgb(48, 48, 48, 0.3);
+}
+
+.text-popup01 {
+  top: 200px;
   background:  #111;
   padding: 10px;
 }
 
 .text-popup02 {
-  height: 30px !important;
-  position: absolute;
   top: 250px;
-  z-index: 1;
   background: #111;
   padding: 10px;
 }
@@ -292,7 +292,6 @@ p {
   align-items: center; 
   margin: 150px auto;
   background:  #c4c4c4;
-  
 }
 
 /* blue-panel -------------------------------------------------------------------------*/
