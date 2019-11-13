@@ -170,7 +170,6 @@ h6 {
   padding: 30px 70px;
 }
 
-
 .fa-image-name {
   display: flex;
   align-items: center;
@@ -545,10 +544,6 @@ h6 {
   transition-duration: 0.5s;
 }
 
-<<<<<<< HEAD
-.see-all-articles p:hover .fas,
-=======
->>>>>>> 79c95ec492ccd2d8e907cce676901359c31cdf43
 .see-all-articles p:hover .fas {
   color: #333;
   transition-duration: 0.5s;
