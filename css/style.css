@@ -1,5 +1,5 @@
 body {
-  /*width: 1680px;*/
+  /* width: 1680px; */
   height: 100vw;
   font-size: 16px;
   font-family: 'Sahitya', serif;
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h6 {
 
 /* navbar -----------------------------------------------------------------------------*/
 .navbar {
-  display: flex;        
+  display: flex;
 }
 
 .navbar div {
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h6 {
   margin-right: 8px;
 }
 
-/* feature-articles -------------------------------------------------------------------*/
+/* feature-articles ------------------------------------------------------------------ */
 .feature-articles {
   display: flex;
   flex-wrap: wrap;
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h6 {
   display: flex;
   align-items: center;
   padding-top: 150px;
-  padding-left: 70px; 
+  padding-left: 70px;
 }
 
 .fa-image-name h3 {
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h6 {
   border: 1px solid #fff;;
 }
 
-/* membership-panel -------------------------------------------------------------------*/
+/* membership-panel ------------------------------------------------------------------ */
 .membership-panel {
   height: 477px;
   display: flex;
@@ -286,7 +286,7 @@ h1, h2, h3, h4, h6 {
   background:  #555;
 }
 
-/* latest-posts -----------------------------------------------------------------------*/
+/* latest-posts ---------------------------------------------------------------------- */
 .latest-posts {
   display: flex;
   flex-wrap: wrap;
@@ -328,7 +328,7 @@ h1, h2, h3, h4, h6 {
   bottom: 20px;
 }
 
-.arrow i{
+.arrow i {
   position: absolute;
   left: 0;
   bottom: 20px;
@@ -478,7 +478,7 @@ h1, h2, h3, h4, h6 {
   z-index: 5;
 }
 
-/* see-all-articles -------------------------------------------------------------------*/
+/* see-all-articles ------------------------------------------------------------------ */
 .see-all-articles {
   height: 50px;
   width: 200px;
@@ -543,7 +543,7 @@ h1, h2, h3, h4, h6 {
   transition-duration: 0.5s;
 }
 
-/* blue-panel -------------------------------------------------------------------------*/
+/* blue-panel ------------------------------------------------------------------------ */
 .blue-panel {
   height: 1132px;
   width: 100vw;
@@ -622,7 +622,7 @@ h1, h2, h3, h4, h6 {
   height: 516px;
 }
 
-/* community-links --------------------------------------------------------------------*/
+/* community-links ------------------------------------------------------------------- */
 .community-links {
   display: flex;
   flex-wrap: wrap;
@@ -691,7 +691,7 @@ h1, h2, h3, h4, h6 {
 .cl01 div:first-child div {
   height: 230px;
   width: 230px;
-  background: #D3392B;
+  background: #d3392b;
   border-radius: 11px;
 }
 
@@ -773,7 +773,7 @@ h1, h2, h3, h4, h6 {
 
 /* Set Red Background (Border) */
 .community-links > div:not(.cl01) .bio-image {
-  background-color: #D3392B;
+  background-color: #d3392b;
 }
 
 .bi01 {
@@ -807,7 +807,7 @@ h1, h2, h3, h4, h6 {
 }
 
 
-/* more-links -------------------------------------------------------------------------*/
+/* more-links ------------------------------------------------------------------------ */
 .more-links {
   height: 54px;
   display: flex;
@@ -817,7 +817,7 @@ h1, h2, h3, h4, h6 {
   margin: 50px 600px 100px;
 }
 
-/* feature-panel ----------------------------------------------------------------------*/
+/* feature-panel --------------------------------------------------------------------- */
 .feature-panel {
   height: 437px;
   display: flex;
@@ -905,7 +905,7 @@ h1, h2, h3, h4, h6 {
   box-shadow: none;
 }
 
-/* curated-posts ----------------------------------------------------------------------*/
+/* curated-posts --------------------------------------------------------------------- */
 .curated-posts {
   display: flex;
   justify-content: center;
@@ -971,7 +971,7 @@ h1, h2, h3, h4, h6 {
   background: #999;
 }
 
-/* newsletter-panel -------------------------------------------------------------------*/
+/* newsletter-panel ------------------------------------------------------------------ */
 .newsletter-panel {
   height: 975px;
   display: flex;
@@ -1049,11 +1049,11 @@ h1, h2, h3, h4, h6 {
 }
 
 .newsletter-panel form button:hover {
-  color: #D3392B;
+  color: #d3392b;
   transition-duration: 0.5s;
 }
 
-/* footer -----------------------------------------------------------------------------*/
+/* footer ---------------------------------------------------------------------------- */
 .footer {
   height: 768px;
   display: flex;
@@ -1216,7 +1216,7 @@ h1, h2, h3, h4, h6 {
   z-index: 10;
 }
 
-/* back-to-top button ------------------------------------------------------------------------*/
+/* back-to-top button ---------------------------------------------------------------- */
 .back-to-top {
   width: 50px;
   height: 50px;
