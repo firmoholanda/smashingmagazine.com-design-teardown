@@ -101,13 +101,13 @@ h1, h2, h3, h4, h6 {
   transform-origin: bottom left;
   transform: rotate(-11deg);
   transition:
-  background-color .1s ease-out,
-  transform .2s ease-out,
-  opacity .1s ease-out;
-  box-shadow: 0 7px 4px -3px rgb(48, 48, 48);
+    background-color 0.1s ease-out,
+    transform 0.2s ease-out,
+    opacity 0.1s ease-out;
+    box-shadow: 0 7px 4px -3px rgb(48, 48, 48);
 }
 
-.nb-button div, 
+.nb-button div,
 .nb-button div h3 {
   display: inline-block;
   height: auto;
@@ -894,9 +894,9 @@ h1, h2, h3, h4, h6 {
   transform-origin: bottom left;
   transform: rotate(-11deg);
   transition:
-    background-color .1s ease-out,
-    transform .2s ease-out,
-    opacity .1s ease-out;
+    background-color 0.1s ease-out,
+    transform 0.2s ease-out,
+    opacity 0.1s ease-out;
 }
 
 .feature-panel img:hover {
@@ -1231,9 +1231,9 @@ h1, h2, h3, h4, h6 {
   transform-origin: bottom left;
   transform: rotate(-11deg);
   transition:
-    background-color .1s ease-out,
-    transform .2s ease-out,
-    opacity .1s ease-out;
+    background-color 0.1s ease-out,
+    transform 0.2s ease-out,
+    opacity 0.1s ease-out;
   background-color: #666;
   box-shadow: 0 7px 4px -3px rgb(48, 48, 48);
 }
