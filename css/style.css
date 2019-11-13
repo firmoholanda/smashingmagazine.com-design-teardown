@@ -298,7 +298,7 @@ h6 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding: 0px 30px;
+  padding: 0 30px;
 }
 
 .latest-posts > div {
@@ -349,7 +349,7 @@ h6 {
 .lp02 {
   flex: 1 0 auto;
   max-width: 25%;
-  background:#666;
+  background: #666;
 }
 
 .lp03 {
@@ -492,7 +492,7 @@ h6 {
   justify-content: center;
   align-items: center;
   margin: 100px auto 100px auto;
-  background:  #c4c4c4;
+  background: #c4c4c4;
 }
 
 .see-all-articles-twitter {
@@ -503,7 +503,7 @@ h6 {
   align-items: center;
   align-content: center;
   margin: 21px auto 100px auto;
-  background:  #c4c4c4;
+  background: #c4c4c4;
 }
 
 .see-all-articles-twitter p {
@@ -545,6 +545,10 @@ h6 {
   transition-duration: 0.5s;
 }
 
+<<<<<<< HEAD
+.see-all-articles p:hover .fas,
+=======
+>>>>>>> 79c95ec492ccd2d8e907cce676901359c31cdf43
 .see-all-articles p:hover .fas {
   color: #333;
   transition-duration: 0.5s;
@@ -688,7 +692,7 @@ h6 {
   display: block;
   flex: 1 0 100%;
   position: relative;
-  background:  #444;
+  background: #444;
 }
 
 .cl01 div:first-child {
@@ -724,37 +728,37 @@ h6 {
 .cl02 {
   flex: 1 0 50%;
   position: relative;
-  background:  #666;
+  background: #666;
 }
 
 .cl03 {
   flex: 1 0 50%;
   position: relative;
-  background:  #444;
+  background: #444;
 }
 
 .cl04 {
   flex: 1 0 50%;
   position: relative;
-  background:  #555;
+  background: #555;
 }
 
 .cl05 {
   flex: 1 0 50%;
   position: relative;
-  background:  #666;
+  background: #666;
 }
 
 .cl06 {
   flex: 1 0 50%;
   position: relative;
-  background:  #777;
+  background: #777;
 }
 
 .cl07 {
   flex: 1 0 50%;
   position: relative;
-  background:  #888;
+  background: #888;
 }
 
 .bio-image {
