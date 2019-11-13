@@ -30,8 +30,12 @@ h1, h2, h3, h4, h6 {
 
 /* navbar -----------------------------------------------------------------------------*/
 .navbar {
-  display: flex;        
+  dis
+  play: flex;        
 }
+
+
+
 
 .navbar div {
   height: 112px;
@@ -1222,7 +1226,8 @@ h1, h2, h3, h4, h6 {
   box-sizing: border-box;
   transform-origin: bottom left;
   transform: rotate(-11deg);
-  transition: background-color .1s ease-out,transform .2s ease-out,opacity .1s ease-out;
+  transition: background-color .1s ease-out,transform .2s ease-out,opacity .1s ease-out
+  ;
   background-color: #666;
   box-shadow: 0 7px 4px -3px rgb(48, 48, 48);
 }
