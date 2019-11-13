@@ -691,7 +691,7 @@ h1, h2, h3, h4, h6 {
 .cl01 div:first-child div {
   height: 230px;
   width: 230px;
-  background: #D3392B;
+  background: #d3392b;
   border-radius: 11px;
 }
 
@@ -761,7 +761,7 @@ h1, h2, h3, h4, h6 {
   justify-self: flex-start;
   margin-right: 25px;
   border-radius: 8px;
-  background: #D3392B;
+  background: #d3392b;
 }
 
 /* Round All Authors Profile Images */
@@ -773,7 +773,7 @@ h1, h2, h3, h4, h6 {
 
 /* Set Red Background (Border) */
 .community-links > div:not(.cl01) .bio-image {
-  background-color: #D3392B;
+  background-color: #d3392b;
 }
 
 .bi01 {
@@ -783,7 +783,7 @@ h1, h2, h3, h4, h6 {
 }
 
 .bi02 {
-  background: #D3392B;
+  background: #d3392b;
 }
 
 .bi03 {
@@ -1049,7 +1049,7 @@ h1, h2, h3, h4, h6 {
 }
 
 .newsletter-panel form button:hover {
-  color: #D3392B;
+  color: #d3392b;
   transition-duration: 0.5s;
 }
 
