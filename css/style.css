@@ -181,7 +181,7 @@ h1, h2, h3, h4, h6 {
   display: block;
   justify-content: center;
   text-align: left;
-  font-size: bold;
+  font-weight: 700;
   padding: 25px 70px;
 }
 
@@ -911,7 +911,7 @@ h1, h2, h3, h4, h6 {
   flex: 1 0 25%;
   position: relative;
   justify-content: flex-start;
-  align-items: left;
+  align-items: flex-start;
   align-content: flex-start;
   flex-flow: column nowrap;
   padding: 20px 30px;
@@ -987,7 +987,7 @@ h1, h2, h3, h4, h6 {
   text-align: center;
   line-height: 1.9;
   font-size: 1.3em;
-  font-weight: regular;
+  font-weight: 400;
 }
 
 .newsletter-panel img {
