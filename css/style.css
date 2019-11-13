@@ -170,7 +170,6 @@ h6 {
   padding: 30px 70px;
 }
 
-
 .fa-image-name {
   display: flex;
   align-items: center;
@@ -400,7 +399,7 @@ h6 {
   outline: none;
 }
 
-.lp05 button:hover, 
+.lp05 button:hover,
 .lp10 button:hover {
   color: #d33a2c;
 }
@@ -480,7 +479,7 @@ h6 {
 .popup-animation:hover {
   transform: scale(1.07);
   padding: 3px 0;
-  box-shadow: 0px 0px 4px 7px rgb(48, 48, 48, 0.3);
+  box-shadow: 0 0px 4px 7px rgb(48, 48, 48, 0.3);
   z-index: 5;
 }
 
@@ -545,10 +544,6 @@ h6 {
   transition-duration: 0.5s;
 }
 
-<<<<<<< HEAD
-.see-all-articles p:hover .fas,
-=======
->>>>>>> 79c95ec492ccd2d8e907cce676901359c31cdf43
 .see-all-articles p:hover .fas {
   color: #333;
   transition-duration: 0.5s;
@@ -816,7 +811,6 @@ h6 {
 .bi07 {
   background: #777;
 }
-
 
 /* more-links ------------------------------------------------------------------------ */
 .more-links {
