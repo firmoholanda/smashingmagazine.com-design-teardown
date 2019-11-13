@@ -736,6 +736,25 @@ h1, h2, h3, h4, h6 {
   line-height: 1.8;
 }
 
+.feature-panel button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 288px;
+  height: 69px;
+  font-size: 1.7em;
+  font-weight: 600;
+  color: #333;
+  border-radius: 11px;
+  margin-top: 10px;
+  transition-duration: 0.3s;
+}
+
+.feature-panel button:hover {
+  color: #d3392b;
+  transition-duration: 0.5s;
+}
+
 .feature-panel img {
   position: absolute;
   bottom: 0;
