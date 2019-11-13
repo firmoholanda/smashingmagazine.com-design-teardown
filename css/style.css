@@ -6,7 +6,9 @@ body {
   overflow-x: hidden;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -23,7 +25,11 @@ p {
   font-size: 0.8em;
 }
 
-h1, h2, h3, h4, h6 {
+h1,
+h2,
+h3,
+h4,
+h6 {
   letter-spacing: 0.4px;
 }
 
@@ -539,7 +545,10 @@ h1, h2, h3, h4, h6 {
   transition-duration: 0.5s;
 }
 
+<<<<<<< HEAD
 .see-all-articles p:hover .fas,
+=======
+>>>>>>> 79c95ec492ccd2d8e907cce676901359c31cdf43
 .see-all-articles p:hover .fas {
   color: #333;
   transition-duration: 0.5s;
@@ -1223,7 +1232,7 @@ h1, h2, h3, h4, h6 {
 .back-to-top {
   width: 50px;
   height: 50px;
-  opacity: .7;
+  opacity: 0.7;
   text-shadow: none;
   border-radius: 11px;
   position: fixed;
