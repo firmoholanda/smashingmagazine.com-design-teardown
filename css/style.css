@@ -479,7 +479,7 @@ h6 {
 .popup-animation:hover {
   transform: scale(1.07);
   padding: 3px 0;
-  box-shadow: 0 0px 4px 7px rgb(48, 48, 48, 0.3);
+  box-shadow: 0 0 4px 7px rgb(48, 48, 48, 0.3);
   z-index: 5;
 }
 
@@ -650,16 +650,12 @@ h6 {
   font-size: 1.3em;
   font-weight: 400;
   margin: 0;
+  text-decoration: underline;
 }
 
 /* Span Element in All CL */
 .community-links > div:not(.cl01) div:last-child h4 span {
   display: inline-block;
-}
-
-/* All Author Underlines */
-.community-links > div:not(.cl01) div:last-child h4 {
-  text-decoration: underline;
 }
 
 /* All Article Headings */
