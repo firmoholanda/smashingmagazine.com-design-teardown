@@ -27,7 +27,7 @@ h1, h2, h3, h4, h6 {
   letter-spacing: 0.4px;
 }
 
-/* navbar -----------------------------------------------------------------------------*/
+/* navbar ----------------------------------------------------------------------------- */
 .navbar {
   display: flex;
 }
@@ -36,7 +36,7 @@ h1, h2, h3, h4, h6 {
   height: 112px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   align-content: center;
   padding: 80px 0;
 }
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h6 {
   height: 477px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   background:  #555;
 }
 
@@ -484,7 +484,7 @@ h1, h2, h3, h4, h6 {
   width: 200px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   margin: 100px auto 100px auto;
   background:  #c4c4c4;
 }
@@ -494,7 +494,7 @@ h1, h2, h3, h4, h6 {
   width: 253px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   align-content: center;
   margin: 21px auto 100px auto;
   background:  #c4c4c4;
@@ -550,7 +550,7 @@ h1, h2, h3, h4, h6 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center; 
+  align-items: center;
   background: #444;
   text-align: center;
   padding-top: 80px;
@@ -823,7 +823,7 @@ h1, h2, h3, h4, h6 {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  align-items: flex-start; 
+  align-items: flex-start;
   background: #333;
   padding: 54px 76px;
 }
@@ -977,7 +977,7 @@ h1, h2, h3, h4, h6 {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
-  align-items: center; 
+  align-items: center;
   background: #222;
   margin: 15px 85px 180px 85px;
   padding: 40px;
