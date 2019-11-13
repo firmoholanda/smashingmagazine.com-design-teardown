@@ -52,7 +52,7 @@ h1, h2, h3, h4, h6 {
 
 .nb-logo {
   flex: 1 0 12%;
-  background:#111;
+  background: #111;
 }
 
 .nb-logo a img {
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h6 {
 
 .nb-button {
   flex: 1 0 8%;
-  background:#222;
+  background: #222;
 }
 
 .nb-button a {
@@ -224,19 +224,19 @@ h1, h2, h3, h4, h6 {
 }
 
 .fa01 {
-  background:#555;
+  background: #555;
 }
 
 .fa02 {
-  background:#666;
+  background: #666;
 }
 
 .fa03 {
-  background:#888;
+  background: #888;
 }
 
 .fa04 {
-  background:#999;
+  background: #999;
 }
 
 .fa-floating {
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h6 {
 
 .text-popup01 {
   top: 200px;
-  background:#111;
+  background: #111;
   padding: 10px;
 }
 
@@ -270,7 +270,7 @@ h1, h2, h3, h4, h6 {
 .seriously-red {
   top: 200px;
   right: 70px;
-  background:#333;
+  background: #333;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 11px;
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:#555;
+  background: #555;
 }
 
 /* latest-posts ---------------------------------------------------------------------- */
@@ -337,7 +337,7 @@ h1, h2, h3, h4, h6 {
 .lp01 {
   flex: 1 0 auto;
   max-width: 25%;
-  background:#444;
+  background: #444;
 }
 
 .lp02 {
@@ -812,7 +812,7 @@ h1, h2, h3, h4, h6 {
   height: 54px;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   background: #dcdcdc;
   margin: 50px 600px 100px;
 }
