@@ -34,7 +34,12 @@ this project can be found in https://github.com/firmoholanda/smashingmagazine.co
 </a>
 
 <a href="https://raw.githack.com/firmoholanda/smashingmagazine.com-design-teardown/development/index.html" target="_blank">
-    <img alt="page animation" src="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/development/img/development/animation.gif"/>
+    <img alt="page animation" src="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/page-animation.gif"/>
+</a>
+<br>
+<p>this is the prototype image:</p>
+<a href="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/prototype-heatmap.png" target="_blank" align="center">
+    <img alt="prototype heatmap" height="700px" src="https://github.com/firmoholanda/smashingmagazine.com-design-teardown/blob/development/img/prototype-heatmap.png"/>
 </a>
 
 
