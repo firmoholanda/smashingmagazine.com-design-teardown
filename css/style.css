@@ -81,7 +81,9 @@ h1, h2, h3, h4, h6 {
   font-size: 1em;
 }
 
-.nb-item div, .nb-item div h2, .nb-item div p {
+.nb-item div,
+.nb-item div h2,
+.nb-item div p {
   display: block;
   height: auto;
   width: auto;
@@ -124,7 +126,8 @@ h1, h2, h3, h4, h6 {
   padding: 10px 20px;
 }
 
-.nb-button div, .nb-button div h3 {
+.nb-button div,
+.nb-button div h3 {
   display: inline-block;
   height: auto;
   width: auto;
@@ -887,7 +890,7 @@ h1, h2, h3, h4, h6 {
   height: 371px;
   transform-origin: bottom left;
   transform: rotate(-11deg);
-  transition: background-color 0.1s ease-out,transform 0.2s ease-out,opacity 0.1s ease-out;
+  transition: background-color 0.1s ease-out, transform 0.2s ease-out, opacity 0.1s ease-out;
 }
 
 .feature-panel img:hover {
@@ -1221,7 +1224,7 @@ h1, h2, h3, h4, h6 {
   box-sizing: border-box;
   transform-origin: bottom left;
   transform: rotate(-11deg);
-  transition: background-color 0.1s ease-out,transform 0.2s ease-out,opacity 0.1s ease-out;
+  transition: background-color 0.1s ease-out, transform 0.2s ease-out, opacity 0.1s ease-out;
   background-color: #666;
   box-shadow: 0 7px 4px -3px rgb(48, 48, 48);
 }
