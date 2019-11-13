@@ -52,7 +52,7 @@ h1, h2, h3, h4, h6 {
 
 .nb-logo {
   flex: 1 0 12%;
-  background:  #111;
+  background:#111;
 }
 
 .nb-logo a img {
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h6 {
 
 .nb-button {
   flex: 1 0 8%;
-  background:  #222;
+  background:#222;
 }
 
 .nb-button a {
@@ -218,29 +218,29 @@ h1, h2, h3, h4, h6 {
 
 .fa-long-arrow-alt-right {
   display: flex;
-  justify-content:left;
+  justify-content: flex-start;
   padding-left: 20px;
   font-size: 2em;
 }
 
 .fa01 {
-  background:  #555;
+  background:#555;
 }
 
 .fa02 {
-  background:  #666;
+  background:#666;
 }
 
 .fa03 {
-  background:  #888;
+  background:#888;
 }
 
 .fa04 {
-  background:  #999;
+  background:#999;
 }
 
 .fa-floating {
-  height: 30px ;
+  height: 30px;
   position: absolute;
   z-index: 1;
   margin: auto;
@@ -257,7 +257,7 @@ h1, h2, h3, h4, h6 {
 
 .text-popup01 {
   top: 200px;
-  background:  #111;
+  background:#111;
   padding: 10px;
 }
 
@@ -270,7 +270,7 @@ h1, h2, h3, h4, h6 {
 .seriously-red {
   top: 200px;
   right: 70px;
-  background:  #333;
+  background:#333;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 11px;
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background:  #555;
+  background:#555;
 }
 
 /* latest-posts ---------------------------------------------------------------------- */
@@ -337,32 +337,32 @@ h1, h2, h3, h4, h6 {
 .lp01 {
   flex: 1 0 auto;
   max-width: 25%;
-  background:  #444;
+  background:#444;
 }
 
 .lp02 {
   flex: 1 0 auto;
   max-width: 25%;
-  background:  #666;
+  background:#666;
 }
 
 .lp03 {
   flex: 1 0 auto;
   max-width: 25%;
-  background: #888;
+  background#888;
 }
 
 .lp04 {
   flex: 1 0 auto;
   max-width: 25%;
-  background: #bebebe;
+  background#bebebe;
 }
 
 .lp05 {
   flex: 1 0 50%;
   border-radius: 11px;
   text-align: center;
-  background: #222;
+  background#222;
 }
 
 .lp05 img,
@@ -1002,7 +1002,7 @@ h1, h2, h3, h4, h6 {
   display: block;
   height: 490px;
   width: 530px;
-  margin: 30px 0 15px 0
+  margin: 30px 0 15px 0;
 }
 
 .newsletter-panel form {
