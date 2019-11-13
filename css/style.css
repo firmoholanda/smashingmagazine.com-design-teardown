@@ -585,7 +585,7 @@ h6 {
 .blue-panel h3 span {
   display: inline-block;
   line-height: 0.8;
-  border-bottom: 4px solid rgba(255, 255, 255, .4);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.4);
 }
 
 .blue-panel p {
@@ -862,7 +862,7 @@ h6 {
   font-family: 'Sahitya', Arial, sans-serif;
   font-size: 3.3em;
   margin: 0 0 20px 0;
-  border-bottom: 4px solid rgba(255, 255, 255, .3);
+  border-bottom: 4px solid rgba(255, 255, 255, 0.3);
   line-height: 0.8;
 }
 
@@ -993,7 +993,7 @@ h6 {
 
 .newsletter-panel h2 {
   font-size: 3em;
-  border-bottom: 3px solid rgba(255, 255, 255, .4);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.4);
   line-height: 0.9;
 }
 
