@@ -139,6 +139,16 @@ h1, h2, h3, h4, h6 {
   padding: 10px 20px;
 }
 
+.nb-button div,
+.nb-button div h3 {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3em;
+}
+
 .nb-button .fas {
   position: relative;
   font-size: 1.3em;
