@@ -14,7 +14,8 @@ div {
   color: #fff;
 }
 
-h2, h3 {
+h2,
+h3 {
   font-size: 1em;
 }
 
@@ -28,14 +29,14 @@ h1, h2, h3, h4, h6 {
 
 /* navbar -----------------------------------------------------------------------------*/
 .navbar {
-  display: flex;   
+  display: flex;
 }
 
 .navbar div {
   height: 112px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
   align-content: center;
   padding: 80px 0;
 }
@@ -97,7 +98,7 @@ h1, h2, h3, h4, h6 {
   box-sizing: border-box;
   transform-origin: bottom left;
   transform: rotate(-11deg);
-  transition: background-color .1s ease-out,transform .2s ease-out,opacity .1s ease-out;
+  transition: background-color .1s ease-out, transform .2s ease-out, opacity .1s ease-out;
   box-shadow: 0 7px 4px -3px rgb(48, 48, 48);
 }
 
