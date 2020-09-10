@@ -1,8 +1,6 @@
 # 📃 design teardown
 
-this project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ 'The Global School for Remote Software Developers!').
-
-In this simple project, we will be breaking apart the website for a popular design magazine with which you’re probably familiar by now – Smashing Magazine.
+Grayscale heat map of the website smashingmagazine.com, that indicates which elements have the greatest weight in the visual hierarchy.
 
 
 
